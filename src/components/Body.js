@@ -30,7 +30,7 @@ const Body = ()=>{
 
     const topRatedRestaurants = ()=>{
         const topRated = restaurantList.filter((res)=>res.info.avgRating > 4)
-        setRestaurantList(topRated)
+        setFilteredRestaurants(topRated)
         setShowButton(false)
     }
 
